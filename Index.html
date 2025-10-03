@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio - Kurnia Adimas</title>
+  <style>
+    body {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f6f9;
+      color: #333;
+    }
+    header {
+      background: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 60px 20px;
+    }
+    header img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      border: 4px solid #fff;
+      margin-bottom: 15px;
+    }
+    header h1 {
+      margin: 10px 0 5px;
+      font-size: 2.2em;
+    }
+    header p {
+      margin: 0;
+      font-size: 1.1em;
+    }
+    section {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 20px;
+    }
+    h2 {
+      text-align: center;
+      margin-bottom: 25px;
+      color: #2c3e50;
+    }
+    .about, .skills, .projects {
+      background: white;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      margin-bottom: 30px;
+    }
+    .about p {
+      line-height: 1.6;
+    }
+    .skills ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      justify-content: center;
+    }
+    .skills li {
+      background: #3498db;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 20px;
+    }
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: #fff;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    .card h3 {
+      margin-top: 0;
+    }
+    .card a {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 15px;
+      background: #3498db;
+      color: white;
+      border-radius: 6px;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+    .card a:hover {
+      background: #2980b9;
+    }
+    .cv-download {
+      text-align: center;
+      margin-top: 20px;
+    }
+    .cv-download a {
+      background: #27ae60;
+      color: white;
+      padding: 12px 25px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    .cv-download a:hover {
+      background: #1e8449;
+    }
+    footer {
+      background: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+    footer a {
+      color: #f1c40f;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="https://via.placeholder.com/150" alt="Foto Profil">
+    <h1>Kurnia Adimas Nugroho Jilan Putra</h1>
+    <p>Web Developer | AI-assisted Creator | Digital Freelancer</p>
+  </header>
+
+  <section class="about">
+    <h2>Tentang Saya</h2>
+    <p>
+      Saya seorang freelancer yang fokus membantu UMKM dan individu membangun website profesional dengan memanfaatkan teknologi AI. 
+      Memiliki pengalaman dalam membuat landing page, website portofolio, dan aplikasi web sederhana. 
+      Berorientasi pada solusi cepat, praktis, dan ramah biaya.
+    </p>
+  </section>
+
+  <section class="skills">
+    <h2>Keahlian</h2>
+    <ul>
+      <li>HTML & CSS</li>
+      <li>JavaScript Dasar</li>
+      <li>Prompt Engineering</li>
+      <li>Landing Page</li>
+      <li>UI/UX Sederhana</li>
+      <li>Deployment (Vercel)</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Proyek Saya</h2>
+    <div class="projects">
+      <div class="card">
+        <h3>Landing Page Kopi</h3>
+        <p>Website untuk penjualan biji kopi asli Indonesia.</p>
+        <a href="https://website-kopi.vercel.app" target="_blank">Lihat Demo</a>
+      </div>
+      <div class="card">
+        <h3>Website Restoran</h3>
+        <p>Menu digital dan informasi restoran dengan desain elegan.</p>
+        <a href="https://website-resto.vercel.app" target="_blank">Lihat Demo</a>
+      </div>
+      <div class="card">
+        <h3>Portofolio Fotografer</h3>
+        <p>Website personal untuk menampilkan karya fotografi.</p>
+        <a href="https://website-fotografer.vercel.app" target="_blank">Lihat Demo</a>
+      </div>
+    </div>
+    <div class="cv-download">
+      <a href="CV_Kurnia_Adimas.pdf" download>📄 Download CV</a>
+    </div>
+  </section>
+
+  <section>
+    <h2>Kontak</h2>
+    <p style="text-align:center;">
+      📧 Email: <a href="mailto:kurnia@example.com">kurnia@example.com</a> <br>
+      📱 WhatsApp: <a href="https://wa.me/6281234567890">+62 812 3456 7890</a> <br>
+      🌐 LinkedIn: <a href="https://linkedin.com/in/username" target="_blank">linkedin.com/in/username</a>
+    </p>
+  </section>
+
+  <footer>
+    <p>© 2025 Kurnia Adimas | Dibuat dengan ❤️ dan AI</p>
+  </footer>
+
+</body>
+</html>
